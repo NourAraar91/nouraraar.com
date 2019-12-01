@@ -1,4 +1,4 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "https://www.nouraraar.com/"
 DefaultContentLanguage  = "en"
 title                   = "Nour Araar"
 theme                   = "hugo-future-imperfect-slim"
