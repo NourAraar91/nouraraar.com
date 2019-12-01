@@ -1,7 +1,7 @@
 baseurl                 = "https://example.com/"
 DefaultContentLanguage  = "en"
 title                   = "Nour Araar"
-theme                   = "future"
+theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
 disqusShortname         = "nour-araar"
