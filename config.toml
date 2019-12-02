@@ -3,10 +3,10 @@ DefaultContentLanguage  = "en"
 title                   = "Nour Araar"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
-paginate                = 3
+# paginate                = 1
 disqusShortname         = "nour-araar"
 googleAnalytics         = "UA-153659798-1"
-pluralizeListTitles     = true
+pluralizeListTitles     = false
 disableLanguages        = [""]
 
 [params]
