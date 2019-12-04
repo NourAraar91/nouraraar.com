@@ -6,9 +6,14 @@ preserveTaxonomyNames   = true
 # paginate                = 1
 disqusShortname         = "nour-araar"
 googleAnalytics         = "UA-153659798-1"
-pluralizeListTitles     = false
+pluralizeListTitles     = true
 disableLanguages        = [""]
 summaryLength = 25
+enableRobotsTXT = true
+canonifyURLs = true
+
+[permalinks]
+    post = "/blog/:title/"
 
 [params]
   mainSections = ["blog", "post"]

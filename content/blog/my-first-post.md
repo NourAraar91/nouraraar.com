@@ -6,10 +6,10 @@ description : "Here you will find nothing"
 featured : "pic03.jpg"
 featuredalt : "Pic 3"
 featuredpath : "main"
-linktitle : "Helllp"
+linktitle : ""
 title : "MY First Blog Post"
 type : "post"
-draft: true
+draft: false
 tags: ["ios","developer","flutter","web","trainer","nour","araar","programming"]
 ---
 ### Heeeeelpp
