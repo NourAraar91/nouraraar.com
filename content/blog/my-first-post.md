@@ -9,7 +9,8 @@ featuredpath : "main"
 linktitle : ""
 title : "MY First Blog Post"
 type : "post"
-draft: true
+draft: false
+tags: ["ios","developer","flutter","web","trainer","nour","araar","programming"]
 ---
 ### Heeeeelpp
 Here we go again

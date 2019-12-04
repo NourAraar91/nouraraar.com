@@ -8,6 +8,7 @@ disqusShortname         = "nour-araar"
 googleAnalytics         = "UA-153659798-1"
 pluralizeListTitles     = false
 disableLanguages        = [""]
+summaryLength = 25
 
 [params]
   mainSections = ["blog", "post"]
