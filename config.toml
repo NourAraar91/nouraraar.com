@@ -1,7 +1,7 @@
 baseurl                 = "https://www.nouraraar.com/"
 DefaultContentLanguage  = "en"
 title                   = "Nour Araar"
-theme                   = "hugo-future-imperfect-slim"
+theme                   = "hugo-future-imperfect"
 preserveTaxonomyNames   = true
 # paginate                = 1
 disqusShortname         = "nour-araar"
@@ -20,7 +20,18 @@ canonifyURLs = true
   description          = "IOS / WEB / Flutter Developer"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Nour Araar"
-
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = false
+  rssAppearAtBottom    = false
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # set to show or to hide categories in the sidebar
+  showSidebarCategories = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
   mainSections = ["blog", "post"]
   # Loads CSS and JavaScript files. The variable is an array so that you can load
   # multiple/additional files if necessary. The standard theme files can be loaded
@@ -30,16 +41,30 @@ canonifyURLs = true
   cssFiles              = ["default"]
   jsFiles               = ["default"]
   # Sets options for highlight.js
-  highlightjs           = true
-  highlightjsTheme      = "github"
-  highlightjsLang       = ["html", "css", "js", "toml"]
+  # options for highlight.js (version, additional languages, and theme)
+  disable_highlight = false # set to true to disable Highlight
+  highlightjsVersion = "9.11.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "css"]
+  highlightjsTheme = "github"
+  MathJaxCDN = "//cdn.bootcss.com"
+  MathJaxVersion = "2.7.1"
   # Sets where "View More Posts" links to
   viewMorePostsLink     = "/blog/"
   # Activate Estimated Reading Times, which appear in the post headers
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin","email"]
+  socialShare          = true
+  # Sets specific share to appear on posts (default behavior is to appear)
+  socialShareTwitter   = true
+  socialShareGoogleplus = true
+  socialShareFacebook  = true
+  socialShareReddit    = true
+  socialShareLinkedin  = true
+  socialShareStumbleupon = false
+  socialSharePinterest = false
+  socialShareEmail     = true
 
   [params.meta]
     # Sets the meta tag description
@@ -70,26 +95,30 @@ canonifyURLs = true
   [params.intro]
     header                = "Nour Araar"
     paragraph             = "IOS / Web / Flutter Developer"
-    rssIntro              = false
-    socialIntro           = true
+    about               = "Nour Araar"
+    
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
-    [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
-      # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
-      shape               = "circle"
-      width               = "100"
-      alt                 = "Nour Araar"
 
+    [params.intro.pic]
+      src       = "/img/main/logo.jpg"
+      # Sets Image to be a cirlce
+      circle    = true
+      # Sets Image to be Future Imperfect's hexagon
+      # imperfect = true
+      width               = "120"
+      alt                 = "Nour Araar"
   [params.sidebar]
     about               = "Nour Araar"
-    # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    postAmount          = 5
     # set to show or to hide categories in the sidebar
     categories          = true
     # Sets Categories to sort by number of posts instead of alphabetical
     categoriesByCount   = true
+  
+  [params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
 
   [params.footer]
     # Sets RSS icons to appear on the sidebar with the social media buttons

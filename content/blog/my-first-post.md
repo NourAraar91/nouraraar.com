@@ -9,7 +9,7 @@ featuredpath : "img/main"
 linktitle : ""
 title : "MY First Blog Post"
 type : "post"
-draft: false
+draft: true
 tags: ["ios","developer","flutter","web","trainer","nour","araar","programming"]
 ---
 ### Heeeeelpp
