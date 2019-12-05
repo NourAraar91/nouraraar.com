@@ -16,11 +16,17 @@ canonifyURLs = true
     post = "/blog/:title/"
 
 [params]
+  # Sets the meta tag description
+  description          = "IOS / WEB / Flutter Developer"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Nour Araar"
+
   mainSections = ["blog", "post"]
   # Loads CSS and JavaScript files. The variable is an array so that you can load
   # multiple/additional files if necessary. The standard theme files can be loaded
   # by adding the value, "default". Default includes the add-on.css and and-on.js.
   # Example: ["default", "/path/to/file"]
+  dynamicTitles        = true
   cssFiles              = ["default"]
   jsFiles               = ["default"]
   # Sets options for highlight.js
@@ -114,38 +120,38 @@ canonifyURLs = true
   # Identifier prepends a Font Awesome icon to the menu item
   [[menu.main]]
     name              = "Home"
-    identifier        = "home"
+    identifier        = "fa fa-home"
     url               = "/"
     pre               = "<i class='fa fa-home'></i>"
     weight            = 1
 
   [[menu.main]]
     name              = "About"
-    identifier        = "about"
+    identifier        = "fa fa-id-card-o"
     url               = "/about/"
     pre               = "<i class='far fa-id-card'></i>"
     weight            = 2
 
   [[menu.main]]
     name              = "Blog"
-    identifier        = "blog"
+    identifier        = "fa fa-newspaper-o"
     url               = "/blog/"
     pre               = "<i class='far fa-newspaper'></i>"
     weight            = 3
 
   [[menu.main]]
     name              = "Categories"
-    identifier        = "categories"
+    identifier        = "fa fa-sitemap"
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
-    weight            = 5
+    weight            = 4
 
   [[menu.main]]
     name              = "Contact"
-    identifier        = "contact"
+    identifier        = "fa fa-envelope-o"
     url               = "/contact/"
     pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
+    weight            = 5
 
 [Languages]
   # Each language has its own menu.

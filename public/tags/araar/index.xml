@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>araar on Nour Araar</title>
+    <link>https://www.nouraraar.com/tags/araar/</link>
+    <description>Recent content in araar on Nour Araar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.nouraraar.com/tags/araar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MY First Blog Post</title>
+      <link>https://www.nouraraar.com/blog/my-first-post/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nouraraar.com/blog/my-first-post/</guid>
+      <description>Heeeeelpp Here we go again Here we go again Here we go againHere we go againHere we go againHere we go againHere we go againHere we go again Here we go againHere we go againHere we go againHere we go again Here we go againHere we go again</description>
+    </item>
+    
+  </channel>
+</rss>

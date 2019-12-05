@@ -1,0 +1,21 @@
+.hello{
+    color:#4a4a4a;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.70mm;
+}
+
+.personalImage{
+    padding: 20px;
+    width: 200px;
+    margin: 0 0 0 25%;
+}
+
+.skill{
+    font-weight: bold;
+}
