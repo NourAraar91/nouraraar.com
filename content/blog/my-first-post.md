@@ -8,7 +8,7 @@ featuredalt : "Pic 3"
 featuredpath : "img/main"
 linktitle : ""
 title : "MY First Blog Post"
-type : "post"
+type : ""
 draft: true
 tags: ["ios","developer","flutter","web","trainer","nour","araar","programming"]
 ---
