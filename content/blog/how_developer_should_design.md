@@ -4,7 +4,7 @@ date: 2019-12-14T18:23:39+08:00
 draft: false
 author : "Nour Araar"
 categories : ["Development"]
-tags: ["design","code","design to code","think","how to design"]
+tags: ["design","code","design to code","think","how to design","Atomic design methodology"]
 description : "How to Think Like A Designer"
 featured : "cover.jpg"
 featuredalt : "How Developer Should Design"
