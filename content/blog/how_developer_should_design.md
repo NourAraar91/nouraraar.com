@@ -113,7 +113,7 @@ let the design process for desingers
 ```
 and foucs on your code and logic of the app
 
-**And you how you build your design ?**, share your way with us and give your feed back about this way
+**And you how you build your design ?**, write comment below and share your way with us and give your feed back about this way
 
 and remember do not hesitate to contact me if you have any question or any feedback 
 
