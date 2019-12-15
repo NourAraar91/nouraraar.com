@@ -116,3 +116,7 @@ and focus on your code and logic of the app
 **And you how you build your design?**, write comment below and share your way with us and give your feedback about this way
 
 and remember do not hesitate to contact me if you have any question or any feedback 
+
+
+you can also find it on
+[Medium](https://medium.com/@nour.araar/how-developer-should-design-461ec5555fb )
