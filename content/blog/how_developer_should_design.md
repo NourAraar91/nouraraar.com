@@ -89,6 +89,11 @@ Atoms are the simplest element such as labels, buttons, inputs and images
 ![Current Way To build things](/img/developer_design/top-down.png "Current Way To build things")  
 this is the Current Way To build things so in order to build the design we have to go through every element and component in the design that will result as we already found around **~ 15000** operation to build  
 so instead of building that number of componenets we only build the unique compomenets and use them around the app and as a result  
+so first thing to ask your designer for is the colors , fonts , and all unique comonents  
+**Colors design file:**  
+![Colors](/img/developer_design/colors.png "Colors")
+**Components design file:**  
+![Componenets and thier states](/img/developer_design/components.png "Componenets and thier states")
 ### How much time do we use now? Currently we have about 20 unique components
 ![do Math](/img/developer_design/do_math.gif "Do Math")
 ![Number of operation after we applied the Atomic design methodology](/img/developer_design/new-results.png "Number of operation after we applied the Atomic design methodology")
@@ -107,3 +112,9 @@ now as a result for that we are now agreed that
 let the design process for desingers
 ```
 and foucs on your code and logic of the app
+
+**And you how you build your design ?**, share your way with us and give your feed back about this way
+
+and remember do not hesitate to contact me if you have any question or any feedback 
+
+ 
