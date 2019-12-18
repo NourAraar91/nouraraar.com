@@ -14,7 +14,7 @@ type : "post"
 ---
 For a long time, the design represented a difficult challenge for the developer, and because the developer always tries to think in a way that they fill in logic, the design sometimes contradicts this aspect and needs more on the creative side But before we continue on how to find a solution to this issue, let us know why design is important
 
-# Why Design important?
+## Why Design important?
 The design is of great importance for several reasons 
 1. Users see and care about the design, they don’t see the complex code:  
    First thing the user will judge when he opens your app is the design,
@@ -119,4 +119,4 @@ and remember do not hesitate to contact me if you have any question or any feedb
 
 
 you can also find it on
-[Medium](https://medium.com/@nour.araar/how-developer-should-design-461ec5555fb )
+[**Medium**](https://medium.com/@nour.araar/how-developer-should-design-461ec5555fb )
