@@ -11,5 +11,14 @@
 	<atom:link href="https://www.nouraraar.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>How Developer Should Design</title>
+      <link>https://www.nouraraar.com/blog/how_developer_should_design/</link>
+      <pubDate>Sat, 14 Dec 2019 18:23:39 +0800</pubDate>
+      
+      <guid>https://www.nouraraar.com/blog/how_developer_should_design/</guid>
+      <description>For a long time, the design represented a difficult challenge for the developer, and because the developer always tries to think in a way that they fill in logic, the design sometimes contradicts this aspect and needs more on the creative side But before we continue on how to find a solution to this issue, let us know why design is important</description>
+    </item>
+    
   </channel>
 </rss>
