@@ -1,22 +1,79 @@
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{ range .Data.Pages }}
+  
   <url>
-    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
-    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
-    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
-    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
-    <xhtml:link
-                rel="alternate"
-                hreflang="{{ .Lang }}"
-                href="{{ .Permalink }}"
-                />{{ end }}
-    <xhtml:link
-                rel="alternate"
-                hreflang="{{ .Lang }}"
-                href="{{ .Permalink }}"
-                />{{ end }}
+    <loc>https://www.nouraraar.com/tags/atomic-design-methodology/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
   </url>
-  {{ end }}
+  
+  <url>
+    <loc>https://www.nouraraar.com/categories/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/tags/code/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/tags/design/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/tags/design-to-code/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/categories/development/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/blog/how_developer_should_design/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/tags/how-to-design/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/tags/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/tags/think/</loc>
+    <lastmod>2019-12-14T18:23:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/blog/</loc>
+    <lastmod>2019-12-06T16:58:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/about/</loc>
+    <lastmod>2019-12-01T22:49:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/googleb45f3beb40fd58cb/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nouraraar.com/contact/</loc>
+  </url>
+  
 </urlset>
