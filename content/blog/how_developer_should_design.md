@@ -25,7 +25,7 @@ The design is of great importance for several reasons
 
 after we know the importance of the design let's go through the current process of designing and try to improve it :)
 
-# How Developer Do Things currently?
+## How Developer Do Things currently?
 first, he will get the design files from the designer, “who uses tools like sketch and zeplin"  
 and start to mock them up using his development tools like (xcode, android studio or any text editor for the web developers)   
 
@@ -45,13 +45,13 @@ each component has multiple attributes like
 
 now the developer will start reading these attributes for each component from design application to code
 
-# Why is this not recommended?
+## Why is this not recommended?
 1. Design takes 2/3 of the time when building any project
 2. High chance of having human errors
 3. Not easy to build complex design
 4. High effort required to change and maintain the design  
    
-## How much time does it take? To build a simple design?
+### How much time does it take? To build a simple design?
 ![do Math](/img/developer_design/do_math.gif "Do Math")  
 ![do Math](/img/developer_design/math.gif "Do Math")  
 ![Number of operations](/img/developer_design/number_of_process.png "Number of operations")  
@@ -62,14 +62,14 @@ on the developer speed of building the things
 but as an average and just for comparing purpose  
 that mean for average it will take about **32 days** to build the design
 
-## How can we reduce time needed? And build better and more complex designs?
+### How can we reduce time needed? And build better and more complex designs?
 *since this is a designers process so it is better to do it their way, what does that mean?*  
 designers build things using symbols that can be reused everywhere,  
 that mean they build the symbol once and have it where ever they want 
 and when they need to use it again, they just call the symbol name and if they wanted to do some changes, they just update the symbols file
 and it will be reflected everywhere.
 
-## Introducing Atomic Design Methodology
+### Introducing Atomic Design Methodology
 ```
 Atomic design is a methodology composed of five distinct stages working together 
 to create interface design systems in a more deliberate and hierarchical manner. 
@@ -79,7 +79,7 @@ The five stages of atomic design are:
 
 Atomic design is not a linear process, but rather a mental model to help us think of our user interfaces as both a cohesive whole and a collection of parts at the same time. Each of the five stages plays a key role in the hierarchy of our interface design systems. Let’s dive into each stage in a bit more detail.
 
-## How do we put it into practice?
+### How do we put it into practice?
 as we can see it just a way of thinking and organizing your elements and style,  
 so instead of start building the design from top-down (building the pages then the elements),  
 we go the opposite way down-top, that mean we start from the atoms
@@ -94,12 +94,12 @@ so first thing to ask your designer for is the colors , fonts , and all unique c
 ![Colors](/img/developer_design/colors.png "Colors")
 **Components design file:**  
 ![Components and their states](/img/developer_design/components.png "Componenets and their states")
-### How much time do we use now? Currently we have about 20 unique components
+#### How much time do we use now? Currently we have about 20 unique components
 ![do Math](/img/developer_design/do_math.gif "Do Math")
 ![Number of operation after we applied the Atomic design methodology](/img/developer_design/new-results.png "Number of operation after we applied the Atomic design methodology")
 since we don't care anymore about the number of screens and number of components in it we only care about the number of unique components in our design the number of operation goes down to **~900** instead of **~15000** and that is a huge improvement in the designing process
 
-## what we achieved now?
+### what we achieved now?
 1. our design now is more organized and readable
 2. number of operations reduced to 1/10 of the old way
 3. now can build more complex design from what we already got
