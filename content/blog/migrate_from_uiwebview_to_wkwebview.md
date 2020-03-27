@@ -21,7 +21,7 @@ If you are an IOS developer and you are using UIWebView and constantly deploying
 
 
 That mean you should start to get rid of all the uiwebview and replace them with WKwebView.  
-And you will not be able to submit any app using uiwebview starting from Aprile 2020
+And starting from Aprile 2020 you will not be able to submit any app using uiwebview
 
 **So How you will do it**  
 First if you are using it in your code all you have to do is to start migrating from **UIWebView** to **WKWebview**  
