@@ -26,37 +26,11 @@ And you will not be able to submit any app using uiwebview starting from Aprile 
 **So How you will do it**  
 First if you are using it in your code all you have to do is to start migrating from **UIWebView** to **WKWebview**  
 
-you need to replace this code 
-```swift
-import UIKit
+you need to replace this code   
+![UIWebView Code](/img/migrate_uiwebview/usinguiwebview.png "UIWebView Code") 
 
-class TestViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let webView = UIWebView()
-        let request = URLRequest(url: URL(string:"https://google.com")!)
-        webView.loadRequest(request)
-    }
-    
-}
-```
-
-with this code 
-```swift
-import UIKit
-import WebKit
-
-class TestViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let webView = WKWebView()
-        let request = URLRequest(url: URL(string:"https://google.com")!)
-        webView.load(request)
-    }
-}
-```
+with this code   
+![WKWebView Code](/img/migrate_uiwebview/usingwkwebview.png "WKWebView Code") 
 
 migrating from **UIWebView** to **WKWebView** might seem quite straightforward, but you probably use some 3rd party libraries and they might also contain UIWebView.  
 You need to find all of them and update them, if available, or replace them. This process is not exactly trivial.
@@ -68,7 +42,7 @@ so you can use this command to find all of these libraries
     grep -r 'UIWebView' .
 
 
-
+![Search Result](/img/migrate_uiwebview/search_result.png "Search Result")
 
 Then check the result that you got and try to upgrade all the pods and that’s it 
 
