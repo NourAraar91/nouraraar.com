@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Nour Araar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Dec 2019 18:23:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 21:37:30 +0800</lastBuildDate>
     
 	<atom:link href="https://www.nouraraar.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>uiwebview</title>
+      <link>https://www.nouraraar.com/tags/uiwebview/</link>
+      <pubDate>Fri, 27 Mar 2020 21:37:30 +0800</pubDate>
+      
+      <guid>https://www.nouraraar.com/tags/uiwebview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wkwebview</title>
+      <link>https://www.nouraraar.com/tags/wkwebview/</link>
+      <pubDate>Fri, 27 Mar 2020 21:37:30 +0800</pubDate>
+      
+      <guid>https://www.nouraraar.com/tags/wkwebview/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Atomic design methodology</title>

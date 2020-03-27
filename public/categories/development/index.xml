@@ -6,10 +6,19 @@
     <description>Recent content in Development on Nour Araar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Dec 2019 18:23:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 21:37:30 +0800</lastBuildDate>
     
 	<atom:link href="https://www.nouraraar.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ITMS-90809: Deprecated API Usage - Migrate from UIWebview to WKWebView</title>
+      <link>https://www.nouraraar.com/blog/migrate_from_uiwebview_to_wkwebview/</link>
+      <pubDate>Fri, 27 Mar 2020 21:37:30 +0800</pubDate>
+      
+      <guid>https://www.nouraraar.com/blog/migrate_from_uiwebview_to_wkwebview/</guid>
+      <description>If you are an IOS developer and you are constantly deploying apps to the app store that mean you definitely faced a warning from apple telling you</description>
+    </item>
     
     <item>
       <title>How Developer Should Design</title>
